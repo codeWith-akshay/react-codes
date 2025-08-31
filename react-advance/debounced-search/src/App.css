@@ -1,0 +1,39 @@
+body {
+  background: #f5f6fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.debounced-search-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.debounced-search-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.loader {
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.error {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.results-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
