@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+.container {
+  max-width: 880px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+.title {
+  margin: 0 0 16px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.info {
+  padding: 12px 14px;
+  background: #f6f6f6;
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  display: inline-block;
+}
+.errorBox {
+  padding: 14px;
+  border: 1px solid #ffcdcd;
+  background: #fff5f5;
+  color: #a40000;
+  border-radius: 12px;
+}
+.btn {
+  margin-top: 8px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover { opacity: 0.9; }
+.list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.card {
+  border: 1px solid #eee;
+  padding: 14px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.cardTitle {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+.cardBody {
+  margin: 0;
+  color: #444;
+  line-height: 1.4;
+  font-size: 14px;
+}

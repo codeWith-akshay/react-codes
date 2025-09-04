@@ -8,9 +8,7 @@ import React, { useEffect, useState } from "react";
  */
 export default function Counter({ initialValue = 0 }) {
   // initialValue ko sanitize: negative ho to 0, non-number ho to 0
-  const normalizedInitial = Number.isFinite(initialValue) ? Math.max(0, Math.floor(initialValue)) : 0; n
-  const n = Number.isFinite(initialValue)
-  console.log(n)
+  const normalizedInitial = Number.isFinite(initialValue) ? Math.max(0, Math.floor(initialValue)) : 0; 
 
   const [count, setCount] = useState(normalizedInitial);
 
